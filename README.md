@@ -4,6 +4,8 @@
 
 - [1] Raff E, Barker J, Sylvester J, et al. Malware detection by eating a whole exe[C]//Workshops at the Thirty-Second AAAI Conference on Artificial Intelligence. 2018.
 > 整个exe作为输入，使用CNN检测
+- [2] Anderson H S, Roth P. Ember: an open dataset for training static pe malware machine learning models[J]. arXiv preprint arXiv:1804.04637, 2018.
+> 提出了一个叫做Ember的恶意软件检查标杆数据集，以json格式存储，而非真实的PE文件
 
 ## 0x01 Evasion
 

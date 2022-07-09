@@ -18,3 +18,9 @@
 > 1、文中说修改后，不影响PE文件的功能，但是实验部分说的使用的微软数据集。微软数据集根本不能执行，只是处理后的PE文件碎片，太水了
 > 
 > 2、没有描述如何处理NOP指令添加到函数汇编代码后，如何处理汇编代码的偏移问题，太水了
+
+#### [3] Chen S, Xue M, Fan L, et al. Automated poisoning attacks and defenses in malware detection systems: An adversarial machine learning approach[J]. computers & security, 2018, 73: 326-344.
+> 基于Android样本提出了一种对投毒攻击的检测方法，用对抗样本来提升检测引擎鲁棒性，类似Re-Training。
+> 将样本中离hyperplane最远的两种样本，来修正对抗样本。
+> 实验对比计较充分，可以学习。
+> 启示：对于神经网络模型的对抗可以找置信度0.5左右的样本来改；对于传统机器学习模型可以找离决策边界较近的样本。

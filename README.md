@@ -24,3 +24,7 @@
 > 将样本中离hyperplane最远的两种样本，来修正对抗样本。
 > 实验对比计较充分，可以学习。
 > 启示：对于神经网络模型的对抗可以找置信度0.5左右的样本来改；对于传统机器学习模型可以找离决策边界较近的样本。
+
+#### [4] Yuste J, Pardo E G, Tapiador J. Optimization of code caves in malware binaries to evade machine learning detectors[J]. Computers & Security, 2022, 116: 102643.
+> 使用遗传算法，添加bytes到PE文件空隙里面（作者取名Code cave），根据插入的位置和插入内容的大小，设置了多种场景攻击MalConv模型
+> 总体没有创新，和文献[1]类似，涉嫌抄袭

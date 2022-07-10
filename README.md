@@ -21,10 +21,19 @@
 
 #### [3] Chen S, Xue M, Fan L, et al. Automated poisoning attacks and defenses in malware detection systems: An adversarial machine learning approach[J]. computers & security, 2018, 73: 326-344.
 > 基于Android样本提出了一种对投毒攻击的检测方法，用对抗样本来提升检测引擎鲁棒性，类似Re-Training。
+> 
 > 将样本中离hyperplane最远的两种样本，来修正对抗样本。
+> 
 > 实验对比计较充分，可以学习。
+> 
 > 启示：对于神经网络模型的对抗可以找置信度0.5左右的样本来改；对于传统机器学习模型可以找离决策边界较近的样本。
 
 #### [4] Yuste J, Pardo E G, Tapiador J. Optimization of code caves in malware binaries to evade machine learning detectors[J]. Computers & Security, 2022, 116: 102643.
 > 使用遗传算法，添加bytes到PE文件空隙里面（作者取名Code cave），根据插入的位置和插入内容的大小，设置了多种场景攻击MalConv模型
+> 
 > 总体没有创新，和文献[1]类似，涉嫌抄袭
+
+#### [5] Zhao K, Zhou H, Zhu Y, et al. Structural attack against graph based android malware detection[C]//Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security. 2021: 3218-3235.
+> CCS2021，确实写得不错
+> 
+> 提出结构攻击方法，相当于动态改，不是静态改

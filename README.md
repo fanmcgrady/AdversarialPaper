@@ -37,3 +37,7 @@
 > CCS2021，确实写得不错
 > 
 > 提出结构攻击方法，相当于动态改，不是静态改
+
+#### [6] Junod P, Rinaldini J, Wehrli J, et al. Obfuscator-LLVM--software protection for the masses[C]//2015 IEEE/ACM 1st International Workshop on Software Protection. IEEE, 2015: 3-9.
+> 实现了LLVM IR层混淆方法：指令替换、虚假控制流插入、代码扁平化、基本块拆分、函数合并。
+> 可以用来动态行为修改。

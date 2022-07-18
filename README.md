@@ -41,3 +41,7 @@
 #### [6] Junod P, Rinaldini J, Wehrli J, et al. Obfuscator-LLVM--software protection for the masses[C]//2015 IEEE/ACM 1st International Workshop on Software Protection. IEEE, 2015: 3-9.
 > 实现了LLVM IR层混淆方法：指令替换、虚假控制流插入、代码扁平化、基本块拆分、函数合并。
 > 可以用来动态行为修改。
+
+#### [7] Liu X, Zhang J, Lin Y, et al. ATMPA: attacking machine learning-based malware visualization detection methods via adversarial examples[C]//2019 IEEE/ACM 27th International Symposium on Quality of Service (IWQoS). IEEE, 2019: 1-10.
+> 攻击了三种模型 CNN、SVM、RF
+> 借助了FSGM、C&W的方法，逻辑混乱，概念性东西太多，故事没讲清楚。

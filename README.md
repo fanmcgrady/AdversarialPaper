@@ -45,3 +45,6 @@
 #### [7] Liu X, Zhang J, Lin Y, et al. ATMPA: attacking machine learning-based malware visualization detection methods via adversarial examples[C]//2019 IEEE/ACM 27th International Symposium on Quality of Service (IWQoS). IEEE, 2019: 1-10.
 > 攻击了三种模型 CNN、SVM、RF
 > 借助了FSGM、C&W的方法，逻辑混乱，概念性东西太多，故事没讲清楚。
+
+#### [8] Shafiei A, Rimmer V, Tsingenopoulos I, et al. Position Paper: On Advancing Adversarial Malware Generation Using Dynamic Features[C]//Proceedings of the 1st Workshop on Robust Malware Analysis. 2022: 15-20.
+> 概念性的文章，对恶意软件动静态规避提出了一些归纳和想法
